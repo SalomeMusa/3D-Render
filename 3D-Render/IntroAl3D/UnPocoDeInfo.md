@@ -4,7 +4,7 @@ Como se ve en la imagen, el renderizado de figuras 3D es como una proyección. S
 
 De esta forma se sustenta la creación de imágenes en diversos medios. O sea que este concepto tiene una aplicación universal en la representación visual.
 
-![alt text](image.png)
+![alt text](Imagenes/image.png)
 
 ## ¿CÓMO SE HACE LA PROYECCIÓN?
 
@@ -12,7 +12,7 @@ Esta proyección lo que hace es transformar objetos tridimensionales (x,y,z) a u
 
 Por ejemplo, si un vértice del cubo se conecta con el ojo del espectador (aclaro que es el vértice de la esquina más a la derecha de la pirámide), el punto que pasa por el plano vendría siendo la proyección del mismo. Los vértices c0, c1, c2 y c3, y su proyección sobre el lienzo da lugar a los puntos c0', c1', c2' y c3'. Entonces, en nuestro plano se van a representar estos objetos en 3D como puntos proyectados.
 
-![alt text](image-1.png)
+![alt text](Imagenes/image-1.png)
 
 ## LUCES Y COLORES
 
@@ -26,7 +26,14 @@ Dentro de los materiales tenemos 2 categorías principales: los dieléctricos (q
 
 Esta mezcla de materiales aporta profundidad y realismo en la escena renderizada.
 
-![alt text](image-2.png)
+![alt text](Imagenes/image-2.png)
+
+### PERCEPCION DEL COLOR
+
+La percepción del color de un objeto bajo luz blanca (compuesta por fotones rojos, azules y verdes) viene determinada por qué fotones se absorben y cuáles se reflejan. 
+Por ejemplo, un objeto rojo bajo luz blanca se percibe como rojo porque absorbe los fotones azules y verdes, mientras que refleja los rojos. La visibilidad del objeto se debe a que los fotones rojos reflejados llegan a nuestros ojos; cada punto de la superficie del objeto dispersa rayos de luz en todas direcciones, pero solo percibimos aquellos que inciden perpendicularmente en nuestros ojos, donde los fotorreceptores los transforman en señales neuronales. Estas señales son procesadas posteriormente por el cerebro, lo que nos permite distinguir diferentes colores y matices. 
+
+![alt text](Imagenes/image3.png)
 
 ---
 
